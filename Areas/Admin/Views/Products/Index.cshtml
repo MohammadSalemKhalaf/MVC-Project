@@ -15,11 +15,11 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var category in ViewBag.Products)
+        @foreach (var product in ViewBag.Products)
         {
             <tr>
-                <td>@category.Id</td>
-                <td>@category.Name</td>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
                 <td>
                     <button class="btn btn-outline-danger delete-btn" data-id="@category.Id">Delete</button>
                 </td>
