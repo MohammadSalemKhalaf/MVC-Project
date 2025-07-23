@@ -1,0 +1,22 @@
+﻿@model E_commerce_mvc.Models.Category
+@section title {
+    <h1>Categories</h1>
+}
+@section show {
+            Show
+}
+<form method="post" action="Create">
+    <div class="card-body">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Add Category</label>
+            <input type="text" class="form-control" value="@Model.Name" id="exampleInputEmail1" name="Name" placeholder="Enter Category Name">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+    </div>
+    <!-- /.card-body -->
+
+    <div class="card-footer">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>
