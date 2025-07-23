@@ -1,3 +1,3 @@
-<img src="p1.jpeg" alt="Screenshot 1" width="400">
-<img src="p2.jpeg" alt="Screenshot 2" width="400">
-<img src="p3.jpeg" alt="Screenshot 3" width="400">
+![Image 1](p1.jpeg)
+![Image 2](p2.jpeg)
+![Image 3](p3.jpeg)
